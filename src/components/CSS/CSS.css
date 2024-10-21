@@ -1,0 +1,15 @@
+.grid_layout{
+    height: 800px;
+    width: 100%;
+}
+.grid_layout img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.sass_items img{
+    height: 500px;
+    width: 400px;
+    object-fit: contain;
+}

@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom'
 
 function Navbar() {
   return (
-    <div className='container nav_container'>
-        <nav>
-            <div className="logo">
-                <h1>Back-2-Basics</h1>
-            </div>
+    <div className='center_container nav_container bg-dark'>
+        <nav className='py-2'>
+            <Link to="/" className="logo nav-link">
+                <h1 className='text-white'>Back-2-Basics</h1>
+            </Link>
             <div className="navbar_contents">
                 <div className="navlink"><Link to="/html">HTML</Link></div>
                 <div className="navlink"><Link to="/css">CSS</Link></div>

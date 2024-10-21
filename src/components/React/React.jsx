@@ -1,10 +1,10 @@
 import React from 'react'
-import "./React/css"
+import "./React.css"
 
-function React() {
+function ReactJS() {
   return (
     <div>React</div>
   )
 }
 
-export default React
+export default ReactJS

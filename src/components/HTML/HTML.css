@@ -1,0 +1,14 @@
+.anchor_slider_item{
+    height: 350px;
+    width: 350px;
+}
+
+.anchor_slider_item img{
+    height: 100%;
+    width: 100%;
+}
+
+.list_grid img{
+height: 400px;
+width: 350px;
+}
