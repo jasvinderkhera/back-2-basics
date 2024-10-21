@@ -26,3 +26,21 @@ nav{
     color: gray;
     transition: 350ms;
 }
+
+@media screen and (max-width:768px) {
+    .mob_menu_items{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.759);
+        z-index: 2;
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 15px;
+    }
+    .menu_item{
+        padding: 8px 0;
+    }
+}

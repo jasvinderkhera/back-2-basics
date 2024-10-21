@@ -13,3 +13,21 @@
     width: 400px;
     object-fit: contain;
 }
+
+
+@media screen and (max-width:768px) {
+    .grid_layout{
+        height: 450px;
+        width: 100%;
+    }
+    .sass_items img{
+        height: 500px;
+        width: 100%;
+        object-fit: contain;
+    }
+    .sass_items img{
+        height: 430px;
+        width: 100%;
+        object-fit: contain;
+    }
+}

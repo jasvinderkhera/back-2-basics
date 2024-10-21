@@ -18,7 +18,7 @@ function HTML() {
         </div>
         <div className="list_slider my-5">
           <h2 className="text-white py-2 my-4">List in HTML</h2>
-          <div className="row list_grid gap-5">
+          <div className="row list_grid gap-5 px-3">
             <img src={custom_color} alt="" />
 
             <img src={custom_order} alt="" />

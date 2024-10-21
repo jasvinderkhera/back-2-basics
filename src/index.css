@@ -18,3 +18,11 @@ code {
   width: 1280px;
   margin: auto;
 }
+
+
+@media screen and (max-width:768px) {
+  .center_container{
+    width: 100%;
+    padding: 12px;
+  }
+}

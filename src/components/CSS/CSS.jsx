@@ -16,26 +16,26 @@ function CSS() {
   return (
     <div>
       <div className="center_container">
-        <div className="grid_container my-5">
+        <div className="grid_container my-5 px-3 px-md-0">
           <h2 className="text-white my-4">Grid in CSS</h2>
           <GridSlider />
 
           <h2 className="text-white my-5 pt-5 text-center">Layout of Grid in CSS</h2>
-          <div className="grid_layout my-4">
+          <div className="grid_layout my-md-4 my-2">
             <img src={grid_layout} alt="" />
           </div>
         </div>
 
-        <div className="display_container my-5">
-          <h2 className="text-white my-5">
+        <div className="display_container my-5 px-3 px-md-0">
+          <h2 className="text-white my-md-4 my-2">
             Difference Between Display, Visibility and Opacity
           </h2>
           <DifferenceSlider />
         </div>
 
-        <div className="sass_container my-5">
-          <h2 className="text-white py-5">What is SASS ?</h2>
-          <div className="d-flex flex-wrap gap-3 sass_items">
+        <div className="sass_container my-5 px-3 px-md-0">
+          <h2 className="text-white my-4">What is SASS ?</h2>
+          <div className="d-flex flex-wrap gap-md-3 gap-1 sass_items">
             <img src={sass} alt="" />
             <img src={fun} alt="" />
             <img src={inheritance} alt="" />

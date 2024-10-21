@@ -46,32 +46,32 @@ function AnchorSlider() {
     <div className="slider-container">
       <Slider {...settings}>
         <div>
-          <div className="anchor_slider_item">
+          <div className="anchor_slider_item px-3">
             <img src={call} alt="" />
           </div>
         </div>
         <div>
-          <div className="anchor_slider_item">
+          <div className="anchor_slider_item px-3">
             <img src={download} alt="" />
           </div>
         </div>
         <div>
-          <div className="anchor_slider_item">
+          <div className="anchor_slider_item px-3">
             <img src={email} alt="" />
           </div>
         </div>
         <div>
-          <div className="anchor_slider_item">
+          <div className="anchor_slider_item px-3">
             <img src={highlight} alt="" />
           </div>
         </div>
         <div>
-          <div className="anchor_slider_item">
+          <div className="anchor_slider_item px-3">
             <img src={sms} alt="" />
           </div>
         </div>
         <div>
-          <div className="anchor_slider_item">
+          <div className="anchor_slider_item px-3">
             <img src={whatsapp} alt="" />
           </div>
         </div>
