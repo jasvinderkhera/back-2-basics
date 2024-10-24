@@ -1,0 +1,9 @@
+.destructuring_slider_item{
+    height: 350px;
+    width: 350px;
+}
+
+.destructuring_slider_item img{
+    height: 100%;
+    width: 100%;
+}

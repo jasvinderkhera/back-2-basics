@@ -1,0 +1,24 @@
+.social_links a{
+    color: white;
+    font-size: 25px;
+}
+
+.sticky_whatsapp{
+    position: fixed;
+    bottom: 80px;
+    right: 100px;
+}
+.sticky_whatsapp a i{
+    font-size: 50px;
+    color: #4caf50;
+}
+
+
+@media screen and (max-width:768px) {
+    
+    .sticky_whatsapp{
+        position: fixed;
+        bottom: 80px;
+        right: 50px;
+    }
+}

@@ -11,6 +11,7 @@ import inheritance from "../../assets/images/sass/inheritance.jpg"
 import nesting from "../../assets/images/sass/nesting.jpg"
 import operators from "../../assets/images/sass/operators.jpg"
 import variables from "../../assets/images/sass/variables.jpg"
+import tips from "../../assets/videos/CSS_pro_tips.mp4"
 
 function CSS() {
   return (
@@ -31,6 +32,11 @@ function CSS() {
             Difference Between Display, Visibility and Opacity
           </h2>
           <DifferenceSlider />
+        </div>
+
+        <div className="css_tips my-5 px-3 px-md-0">
+          <h2 className="text-white py-3">CSS Pro Tips</h2>
+          <video src={tips} controls></video>
         </div>
 
         <div className="sass_container my-5 px-3 px-md-0">

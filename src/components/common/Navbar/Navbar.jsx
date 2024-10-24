@@ -30,7 +30,7 @@ function Navbar() {
             <Link to="/react">React</Link>
           </div>
           <div className="navlink">
-            <Link to="/extras">Extras</Link>
+            <Link to="/cheatsheet">Cheatsheet</Link>
           </div>
           <div className="navlink">
             <Link to="/contact">Contact</Link>
@@ -49,42 +49,42 @@ function Navbar() {
           >
             <div className="menu_items ps-3 pt-3">
               <div className="menu_item" onClick={()=>setMenu("hide")}>
-                <Link to="/HTML" className="nav-link text-white fs-1">
+                <Link to="/HTML" className="nav-link text-white fs-4">
                   HTML
                 </Link>
               </div>
               <div className="menu_item" onClick={()=>setMenu("hide")}>
-                <Link to="/css" className="nav-link text-white fs-1">
+                <Link to="/css" className="nav-link text-white fs-4">
                   CSS
                 </Link>
               </div>
               <div className="menu_item" onClick={()=>setMenu("hide")}>
-                <Link to="/javascript" className="nav-link text-white fs-1">
+                <Link to="/javascript" className="nav-link text-white fs-4">
                   Javascript
                 </Link>
               </div>
               <div className="menu_item" onClick={()=>setMenu("hide")}>
-                <Link to="/jquery" className="nav-link text-white fs-1">
+                <Link to="/jquery" className="nav-link text-white fs-4">
                   JQuery
                 </Link>
               </div>
               <div className="menu_item" onClick={()=>setMenu("hide")}>
-                <Link to="/bootstrap" className="nav-link text-white fs-1">
+                <Link to="/bootstrap" className="nav-link text-white fs-4">
                   Bootstrap
                 </Link>
               </div>
               <div className="menu_item" onClick={()=>setMenu("hide")}>
-                <Link to="/react" className="nav-link text-white fs-1">
+                <Link to="/react" className="nav-link text-white fs-4">
                   ReactJS
                 </Link>
               </div>
               <div className="menu_item" onClick={()=>setMenu("hide")}>
-                <Link to="/extras" className="nav-link text-white fs-1">
-                  Extras
+                <Link to="/cheatsheet" className="nav-link text-white fs-4">
+                  Cheatsheet
                 </Link>
               </div>
               <div className="menu_item" onClick={()=>setMenu("hide")}>
-                <Link to="/contact" className="nav-link text-white fs-1">
+                <Link to="/contact" className="nav-link text-white fs-4">
                   Contact
                 </Link>
               </div>

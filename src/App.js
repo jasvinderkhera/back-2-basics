@@ -8,6 +8,9 @@ import JQuery from "./components/JQuery/JQuery"
 import Bootstrap from "./components/Bootstrap/Bootstrap"
 import Navbar from "./components/common/Navbar/Navbar";
 import ReactJS from "./components/React/React";
+import Cheatsheet from "./components/Cheatsheet/Cheatsheet";
+import Footer from "./components/common/Footer/Footer";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
@@ -21,7 +24,10 @@ function App() {
       <Route path="/react" element={<ReactJS/>} /> 
       <Route path="/bootstrap" element={<Bootstrap/>} /> 
       <Route path="/jquery" element={<JQuery/>} /> 
+      <Route path="/cheatsheet" element={<Cheatsheet/>}/>
+      <Route path="/contact" element={<Contact/>}/>
     </Routes>
+    <Footer/>
     </BrowserRouter>
   );
 }
