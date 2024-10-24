@@ -1,0 +1,10 @@
+.faq_container{
+    min-height: 100vh;
+}
+
+.faq{
+    color: white;
+}
+.faq:hover{
+    cursor: pointer;
+}

@@ -11,6 +11,7 @@ import ReactJS from "./components/React/React";
 import Cheatsheet from "./components/Cheatsheet/Cheatsheet";
 import Footer from "./components/common/Footer/Footer";
 import Contact from "./components/Contact/Contact";
+import FAQ from "./components/FAQ/FAQ";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <Route path="/jquery" element={<JQuery/>} /> 
       <Route path="/cheatsheet" element={<Cheatsheet/>}/>
       <Route path="/contact" element={<Contact/>}/>
+      <Route path="/faq" element={<FAQ/>}/>
     </Routes>
     <Footer/>
     </BrowserRouter>

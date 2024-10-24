@@ -24,7 +24,7 @@ function Footer() {
           <div className="col-md-8">
             <ul className="d-flex justify-content-between align-items-center mt-2 ps-0">
                 <li><Link to="/" className="logo nav-link text-white pt-1">About Us</Link></li>
-                <li><Link to="/" className="logo nav-link text-white pt-1">FAQ's</Link></li>
+                <li><Link to="/faq" className="logo nav-link text-white pt-1">FAQ's</Link></li>
                 <li><Link to="/" className="logo nav-link text-white pt-1">Privacy Policy</Link></li>
             </ul>
           </div>
