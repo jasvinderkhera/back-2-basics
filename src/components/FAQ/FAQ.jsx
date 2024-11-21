@@ -66,6 +66,37 @@ function FAQ() {
             </p>
           </div>
         </div>
+        <div className="faq px-3 px-md-0 my-4">
+          <p className="pt-2 text-white fs-4" onClick={()=>{showq === "q2" ? setShowq("hide") : setShowq("q2")}}>
+            <span>How to make tooltip using CSS ?</span>{" "}
+            <i className="fa fa-angle-down"></i>
+          </p>
+          <div className="faq_answer fs-5 text-white" style={ showq === "q2" ? {maxHeight: "1000px", overflow:"visible",paddingBottom:"30px", transition:"350ms"} : {maxHeight:"0", overflow:"hidden",transition:"350ms"}}>
+            
+            <p>
+              Visit this link <a href="https://www.w3schools.com/css/css_tooltip.asp">CSS Tooltip</a>.
+              
+            </p>
+          </div>
+        </div>
+        <div className="faq px-3 px-md-0 my-4">
+          <p className="pt-2 text-white fs-4" onClick={()=>{showq === "q2" ? setShowq("hide") : setShowq("q2")}}>
+            <span>How to add tailwind to my React Project ?</span>{" "}
+            <i className="fa fa-angle-down"></i>
+          </p>
+          <div className="faq_answer fs-5 text-white" style={ showq === "q2" ? {maxHeight: "1000px", overflow:"visible",paddingBottom:"30px", transition:"350ms"} : {maxHeight:"0", overflow:"hidden",transition:"350ms"}}>
+            
+            <p>
+              Visit this link <a href="https://tailwindcss.com/docs/installation">Tailwind Installation</a>.
+
+              <ul>
+                <li>Follow the steps given in the website</li>
+                <li>In the 'tailwind.config.js' file just add jsx after js with comma separated</li>
+              </ul>
+              
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );

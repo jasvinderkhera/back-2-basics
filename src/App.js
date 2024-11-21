@@ -14,6 +14,7 @@ import Contact from "./components/Contact/Contact";
 import FAQ from "./components/FAQ/FAQ";
 
 function App() {
+  document.title="Back 2 Basics"
   return (
     <BrowserRouter>
     <Navbar/>
