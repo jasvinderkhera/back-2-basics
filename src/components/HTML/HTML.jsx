@@ -5,6 +5,7 @@ import custom_color from "../../assets/images/list/custom_color.jpg";
 import custom_order from "../../assets/images/list/custom_order.jpg";
 import marker_content from "../../assets/images/list/marker_content.jpg";
 import start_value from "../../assets/images/list/start_value.jpg";
+import TipsSlider from "../common/Sliders/TipsSlider";
 
 function HTML() {
   return (
@@ -15,6 +16,12 @@ function HTML() {
             Things You can do with Anchor Tag in HTML
           </h2>
           <AnchorSlider />
+        </div>
+        <div className="anchor_slider">
+          <h2 className="text-white py-2 my-4">
+            Tips in HTML
+          </h2>
+          <TipsSlider />
         </div>
         <div className="list_slider my-5">
           <h2 className="text-white py-2 my-4">List in HTML</h2>
